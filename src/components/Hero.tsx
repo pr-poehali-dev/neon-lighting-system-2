@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/1a437a0b-393f-4e6a-907d-adbd5528fd34/files/d7745a8f-0c83-4f55-afc9-2607a2e36d42.jpg"
+          alt="Производство корпусной мебели"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase">
+          ПРОИЗВОДИМ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Корпусная мебель по индивидуальным размерам для магазинов, застройщиков и дизайнеров
         </p>
+        <div className="mt-10">
+          <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+            Стать партнёром
+          </button>
+        </div>
       </div>
     </div>
   );

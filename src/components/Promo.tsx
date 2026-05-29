@@ -18,20 +18,19 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/1a437a0b-393f-4e6a-907d-adbd5528fd34/files/66f120aa-4139-49b3-90c4-7ef874efcfc8.jpg"
+            alt="Производство мебели"
             className="w-full h-full object-cover"
           />
         </motion.div>
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+        Партнёрам и оптовым клиентам
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+        Работаем с магазинами мебели, застройщиками и дизайн-студиями. Точные размеры, стабильные сроки, гибкие условия сотрудничества.
       </p>
     </div>
   );
